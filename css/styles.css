@@ -1,0 +1,332 @@
+:root {
+    --black: #111;
+    --orange: #fd9222;
+    --violet: #1e1823;
+    --beige: #fcf1e0;
+    --light: #fafafa;
+    --gray: #4c4c4c;
+    --white: #fff;
+    --marker-body: #4c4c4c;
+    --marker-border: #eceded;
+}
+
+body {
+font-family: "Montserrat", sans-serif;
+color: var(--black);
+background-color: var(--light);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a { text-decoration: none;}
+button {cursor: pointer;
+color: inherit;}
+
+
+/* #region header */
+
+.page-header {}
+
+.page-nav {}
+
+.logo-link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: var(--black);
+text-transform: uppercase;}
+
+.logo-link:hover, .logo-link:focus {color: var(--orange);}
+
+.logo-link:active, .nav-links:active {text-decoration: underline;}
+
+.logo-part {font-style: italic; }
+
+.logo-link img {width: 24px;
+height: 24px;}
+
+
+.nav-list {}
+
+.nav-list-items {}
+
+.nav-links { font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+    color: var(--black);}
+.nav-links:hover, .nav-links:focus {color: var(--orange);}
+
+.nav-links:active, .nav-links:active {text-decoration: underline;}
+.social-items {
+
+}
+
+.social-links {}
+
+.page-nav {}
+
+.logo-link {}
+
+/* #endregion header */
+
+/* #region nav */
+
+.nav-list {}
+
+.nav-list-items {}
+
+.nav-links {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+
+/* #endregion nav */
+
+/* #region Hero */
+
+.social-links {}
+
+.social-items {}
+
+.hero { background: rgba(17, 17, 17, 0.7);}
+
+.hero-title { font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color: var(--white);}
+
+.buy-now { font-weight: 600;
+    font-size: 14px;
+    color: var(--white);
+    background: var(--orange);
+    border-radius: 100px;
+        padding: 14px 40px;
+}
+.btn-now-its-made:hover, .btn-now-its-made:focus {color: var(--orange);}
+.btn-now-its-made {
+    font-weight: 600;
+        font-size: 14px;
+        color: var(--white);
+}
+
+.btn-scroll-down {font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.03em;
+    color: var(--white);}
+
+/* #endregion Hero */
+
+/* #region benefits */
+
+.section-benefits {
+    background: var(--violet);
+}
+
+.title-benefits {
+    font-weight: 600;
+        font-size: 18px;
+        line-height: 1.22222;
+        color: var(--white);
+}
+
+.list-benefits {}
+
+.item-benefits {}
+
+.item-title-benefits {
+    font-weight: 600;
+        font-size: 18px;
+        line-height: 1.22222;
+        color: var(--white);
+}
+
+.item-text-benefits {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        color: rgba(255, 255, 255, 0.7);
+}
+
+/* #endregion benefits */
+
+/* #region taste */
+
+
+.span-title-taste {font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+color: var(--orange);}
+
+.title-taste {font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black)}
+
+.list-taste {}
+
+.item-taste {}
+
+.item-text-taste {font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    }
+/* #endregion taste */
+
+/* #region how */
+.title-text, .liste-how {background: var(--white);}
+
+/* #endregion how */
+
+/* #region products */
+
+
+.section-products {}
+
+.title-products {font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black);}
+
+.list-products {}
+
+.item-list-products {background-color: var(--white);}
+
+.item-title-products {font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--black);}
+
+.item-text-products {font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);}
+
+.item-text-prod-uan {font-weight: 600;
+    font-size: 14px;
+    color: var(--black);}
+/* #endregion products */
+
+/* #region selers  */
+.section-sellers {}
+
+.title-selers {font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black);}
+
+.list-selers {}
+
+.item-list-selers {background: var(--white);}
+
+.item-title-selers {font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--black);}
+/* #endregion selers */
+
+/* #region love */
+.section-love {}
+
+.title-love {font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black);}
+
+.list-love {}
+
+.item-list-love {box-shadow: 0 10px 100px 0 rgba(17, 17, 17, 0.03);
+    background: var(--white);}
+
+.item-title-love {font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: var(--black);}
+
+.item-text-love {font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);}
+
+.but-leave {font-weight: 600;
+    font-size: 18px;
+    color: var(--black);}
+
+/* #endregion love */
+
+/* #region footer */
+
+.section-footer {background: var(--violet);}
+.title-footer {font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: var(--white);
+    }
+
+.span-chocolate {font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: var(--orange);}
+
+.text-social {font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    color: var(--white);}
+
+.list-footer {}
+
+.item-list-footer {}
+
+.link-footer-social {}
+
+.link-adress-footer {font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--white);}
+
+.nav-footer {}
+
+.link-nav-footer {font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: var(--white);}
+
+/* #endregion footer */
