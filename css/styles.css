@@ -17,12 +17,28 @@ background-color: var(--light);
 }
 
 ul, ol {
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+
 }
 
 a { text-decoration: none;}
 button {cursor: pointer;
 color: inherit;}
+
+h1,h2,h3,h4,h5,h6,p {margin: 0;}
+
+.container {margin: 0 auto;
+width: 1168px;
+padding-left: 16px;
+padding-right: 16px;
+border: 1px solid red;
+}
+
+
+
+
 
 
 /* #region header */
@@ -37,7 +53,9 @@ color: inherit;}
     line-height: 1.11;
     letter-spacing: -0.03em;
     color: var(--black);
-text-transform: uppercase;}
+text-transform: uppercase;
+
+}
 
 .logo-link:hover, .logo-link:focus {color: var(--orange);}
 
@@ -57,7 +75,8 @@ height: 24px;}
     font-size: 14px;
     line-height: 1.14286;
     letter-spacing: -0.02em;
-    color: var(--black);}
+    color: var(--black);
+padding: 32px;}
 .nav-links:hover, .nav-links:focus {color: var(--orange);}
 
 .nav-links:active, .nav-links:active {text-decoration: underline;}
@@ -84,6 +103,7 @@ height: 24px;}
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: -0.02em;
+    
 }
 
 /* #endregion nav */
@@ -96,24 +116,40 @@ height: 24px;}
 
 .hero { background: rgba(17, 17, 17, 0.7);}
 
+.hero .container {
+    padding-top: 300px;
+
+}
+
 .hero-title { font-weight: 500;
     font-size: 28px;
     line-height: 1.21;
     letter-spacing: -0.03em;
-    color: var(--white);}
+    color: var(--white);
+    width: 484px;
+    margin-bottom: 32px;
+}
 
 .buy-now { font-weight: 600;
     font-size: 14px;
     color: var(--white);
     background: var(--orange);
     border-radius: 100px;
-        padding: 14px 40px;
+        width: 144px;
+        height: 45px;
 }
 .btn-now-its-made:hover, .btn-now-its-made:focus {color: var(--orange);}
 .btn-now-its-made {
     font-weight: 600;
         font-size: 14px;
         color: var(--white);
+        border: 1px solid var(--white);
+            border-radius: 100px;
+            width: 183px;
+            height: 45px;
+            display: inline-block;
+            padding-top: 14px;
+            padding-left: 40px;
 }
 
 .btn-scroll-down {font-weight: 500;
